@@ -1,0 +1,24 @@
+From a03d70b6fb886e7c7e44775562826377fe073c27 Mon Sep 17 00:00:00 2001
+From: Kalev Lember <klember@redhat.com>
+Date: Fri, 2 Apr 2021 13:45:37 +0200
+Subject: [PATCH] Add 40.0 release info to appdata
+
+---
+ data/org.gnome.gedit.appdata.xml.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/data/org.gnome.gedit.appdata.xml.in b/data/org.gnome.gedit.appdata.xml.in
+index 5bf14503c..c5d3bdc94 100644
+--- a/data/org.gnome.gedit.appdata.xml.in
++++ b/data/org.gnome.gedit.appdata.xml.in
+@@ -36,6 +36,7 @@
+   <translation type="gettext">gedit</translation>
+   <content_rating type="oars-1.1" />
+   <releases>
++    <release version="40.0" date="2021-03-19" />
+     <release version="3.38.0" date="2020-09-11" />
+     <release version="3.37.92" date="2020-09-04" />
+     <release version="3.37.3" date="2020-07-03" />
+-- 
+2.30.2
+
